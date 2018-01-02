@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--导航栏 -->
+    <declare-styleable name="titlebar">
+        <!-- 标题 -->
+        <attr name="titlebar_TitleText" format="string" />
+
+    </declare-styleable>
+
+    <!--圆形图片 -->
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension" />
+        <attr name="border_inside_color" format="color" />
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+
+    <!-- 模式选择 -->
+    <declare-styleable name="modeSelect">
+        <!-- 默认选择 -->
+        <attr name="isSelectLeft" format="boolean" />
+        <!-- 左侧文字 -->
+        <attr name="modeSelectLeftText" format="string" />
+        <!-- 右侧文字 -->
+        <attr name="modeSelectRightText" format="string" />
+        <!-- 选中文字颜色 -->
+        <attr name="selectTextColor" format="color" />
+        <!-- 非选中文字颜色 -->
+        <attr name="noSelectTextColor" format="color" />
+        <!-- 背景 -->
+        <attr name="modeSelectBackgroundResource" format="reference"/>
+        <!-- 选中背景 -->
+        <attr name="selectBackgroundResource" format="reference"/>
+        <!-- 非选中背景 -->
+        <attr name="noSelectBackgroundResource" format="reference"/>
+    </declare-styleable>
+
+    <!-- 项目子item选择 -->
+    <declare-styleable name="activityItem">
+        <!-- 背景 -->
+        <attr name="activityItemBackgroundResource" format="reference"/>
+        <!-- 左侧背景 -->
+        <attr name="leftBackgroundResource" format="reference" />
+        <!-- 右侧背景 -->
+        <attr name="rightBackgroundResource" format="reference" />
+        <!-- 左侧文字 -->
+        <attr name="activityItemLeftText" format="string" />
+        <!-- 右侧文字 -->
+        <attr name="activityItemRightText" format="string" />
+        <!-- 左侧文字颜色 -->
+        <attr name="activityItemLeftTextColor" format="color" />
+        <!-- 右侧文字颜色 -->
+        <attr name="activityItemRightTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="MyRatingBar">
+        <attr name="indicator" format="boolean" />
+        <attr name="hasHalf" format="boolean" />
+        <attr name="rating" format="float" />
+        <attr name="type" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="small" value="1" />
+        </attr>
+        <attr name="coloredRatingBarStyle" format="reference" />
+        <!-- Indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleIndicator" format="reference" />
+        <!-- Small RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmall" format="reference" />
+        <!-- Small indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmallIndicator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TagLayout">
+        <attr name="horizontal_space" format="dimension" />
+        <attr name="vertical_space" format="dimension" />
+        <attr name="max_line" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="SliderBanner">
+        <attr name="slider_banner_indicator" format="reference" />
+        <attr name="slider_banner_pager" format="reference" />
+        <attr name="slider_banner_time_interval" format="integer" />
+
+    </declare-styleable>
+    <declare-styleable name="DotView">
+        <attr name="dot_radius" format="dimension" />
+        <attr name="dot_span" format="dimension" />
+        <attr name="dot_unselected_color" format="color" />
+        <attr name="dot_selected_color" format="color" />
+    </declare-styleable>
+
+    <!--圆角头像-->
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,57 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+            <RelativeLayout
+                android:id="@+id/home_fragmentGvRL"
+                android:layout_width="match_parent"
+                android:layout_height="231dp"
+                android:background="@drawable/login_bg"
+                 >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/home_fragmentGvVp"
+                    android:layout_width="match_parent"
+                    android:layout_height="231dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true" />
+
+                <LinearLayout
+                    android:id="@+id/home_fragmentGvDotLL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                </LinearLayout>
+            </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:background="@drawable/login_bg"
+            android:layout_below="@+id/home_fragmentGvRL"></android.support.v7.widget.RecyclerView>
+
+        <com.ppuser.client.view.weight.TitleBar
+            android:id="@+id/titleBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.95"
+            app:titlebar_TitleText="PP优约"
+            />
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

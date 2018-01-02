@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="login_bg_height">210dp</dimen>
+    <dimen name="login_button_height">39dp</dimen>
+    <dimen name="login_text_size">12sp</dimen>
+    <dimen name="login_login_button_width">240dp</dimen>
+    <dimen name="login_login_button_height">43dp</dimen>
+    <dimen name="login_login_third_margin_botton">29dp</dimen>
+    <dimen name="login_login_third_margin_top">43dp</dimen>
+    <dimen name="login_login_third_width">241dp</dimen>
+    <dimen name="login_login_third_height">39dp</dimen>
+    <dimen name="login_login_button_margin_top">43dp</dimen>
+    <dimen name="login_login_button_margin_bottom">43dp</dimen>
+
+</resources>
